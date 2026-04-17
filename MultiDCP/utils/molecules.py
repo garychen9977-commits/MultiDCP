@@ -1,6 +1,6 @@
 import rdkit
 import molecule_utils
-from collections import Iterable
+from collections.abc import Iterable
 import warnings
 warnings.filterwarnings("ignore")
 
