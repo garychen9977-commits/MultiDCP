@@ -15,7 +15,9 @@ def atom_features(atom):
                                            'Cr', 'Pt', 'Hg', 'Pb', 'Unknown']) + \
                     one_of_k_encoding(atom.GetDegree(), [0, 1, 2, 3, 4, 5]) + \
                     one_of_k_encoding_unk(atom.GetTotalNumHs(), [0, 1, 2, 3, 4]) + \
-                    one_of_k_encoding_unk(atom.GetImplicitValence(), [0, 1, 2, 3, 4, 5]) + \
+                    one_of_k_encoding_unk(
+                        atom.GetValence(which=Chem.ValenceType.IMPLICIT), [0, 1, 2, 3, 4, 5]
+                    ) + \
                     bool_to_int([atom.GetIsAromatic()])
 
 
