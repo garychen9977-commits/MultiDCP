@@ -27,10 +27,10 @@ graphs/*
 full_database.xml
 # but keep specific ones
 !data/adjusted_ccle_tcga_ad_tpm_log2.csv
-!data/all_drugs_11000.csv
-!data/ccle_gene_dependence_file.csv
-!data/ccle_gene_expression_file.csv
-!data/ccle_tcga_ad_cells.p
-!data/ccle_tpm_log2.csv
+#!data/all_drugs_11000.csv
+#!data/ccle_gene_dependence_file.csv
+#!data/ccle_gene_expression_file.csv
+#!data/ccle_tcga_ad_cells.p
+#!data/ccle_tpm_log2.csv
 !data/gene_vector.csv
-!data/tcga_tpm_log2.csv
+#!data/tcga_tpm_log2.csv
