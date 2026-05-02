@@ -34,3 +34,4 @@ full_database.xml
 #!data/ccle_tpm_log2.csv
 !data/gene_vector.csv
 #!data/tcga_tpm_log2.csv
+data/adjusted_ccle_tcga_ad_tpm_log2.csv
